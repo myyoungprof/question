@@ -1,0 +1,121 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; 
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(81, 113, 103);
+    background-color: lavender;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    /* background-color: blue; */
+}
+
+.sub{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: cursive;
+    justify-content: center;
+    margin: 25px;
+    color: goldenrod;
+    font-style: italic;
+    
+
+}
+
+.question{
+    width: 330px;
+    margin: 5px;
+    /* height: 1000px; */
+    /* background-color: #8a2be2; */
+}
+
+.question-tittle{
+    /* background-color: aqua; */
+    background-color: white;
+    display: flex;
+    text-align: center;
+    height: 40px;
+    /* border-radius: 50%; */
+    font-size: medium;
+    box-shadow: 2px 6px 18px grey;
+
+
+}
+
+
+.gist{
+ /* background-color: aquamarine; */
+ height: 20px;
+ margin: 13px;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ font-style: oblique;
+
+}
+.btn{
+    width: 17px;
+    height: 18px;
+    margin-top: 13px;
+    margin-left: 20px;
+    background-color: goldenrod;
+    color: gold;
+    /* displa: flex;
+    justify-content: end; */
+    /* margin-left: 30px;
+    background-color: blueviolet; */
+
+}
+.btn:hover{
+    transform: rotate(360deg);
+        transition: transform 5000ms;
+}
+
+.first{
+    z-index: 2;
+}
+.second{
+    display: none;
+}
+
+
+
+.question-info{
+    /* visibility: hidden; */
+    /* background-color: bisque; */
+    height: 1px;
+    /* text-align: center; */
+    overflow: hidden;
+    background-color: white;
+    font-family: serif;
+}
+
+hr{
+    background-color: crimson;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+
+.showman{
+    visibility: visible;
+    height: 100px;
+    box-shadow: 2px 6px 18px grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 17px;
+    padding-right: 17px;
+
+
+}
